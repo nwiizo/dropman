@@ -15,9 +15,9 @@ url = ["http://www.kame.net/","http://www.amazon.co.jp/registry/wishlist/1R5ZE9A
 for n in cmd:
         subprocess.Popen(n,shell=True)
         #subprocess　command
-        time.sleep(1)
+        time.sleep(2)
         #sleep Shell or python 
 for n in url:
         webbrowser.open_new(n)
         #browser controll
-        #request /img/kame-noanime-small.gif" altの値を見れはﾞここも自動化出きる
+        #request /img/kame-noanime-small.gif" altの値を見れはﾞここも自動化可能
