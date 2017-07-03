@@ -1,9 +1,9 @@
-# dropman
-## install
+## dropman
+### install
 ```
 pip install -r requirements.txt
 ```
-## Using
+### Using
 ```
 $python3 dropman.py
 ```
